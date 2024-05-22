@@ -4,12 +4,12 @@ def greet_programmer():
     print("Hello, programmer!")
 greet_programmer()
 
-def greet(name="Naureen"):
-    print(f"Hello,{name}!")
-greet()
+def greet(name):
+    print(f"Hello, {name}!")
+greet("Naureen")
 
 def greet_with_default(name="programmer"):
-    print(f"Hello,{name}!")
+    print(f"Hello, {name}!")
 greet_with_default("Sunny")
 
 def add(num1, num2):
